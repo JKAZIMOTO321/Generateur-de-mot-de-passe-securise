@@ -13,11 +13,7 @@ def generate_pasword():
     use_chiffres=ui.checkBox_chiffres.isChecked()
     use_symboles=ui.checkBox_symboles.isChecked()
 
-    # print(f"majiscule : {use_majiscule}")
-    # print(f"Miniscule : {use_miniscule}")
-    # print(f"Chiffres : {use_chiffres}")
-    # print(f"Symboles : {use_symboles}")
-    # print("==========================>>>")
+
     chars=""
     if use_majiscule: chars+=string.ascii_uppercase
     if use_miniscule: chars+=string.ascii_lowercase
